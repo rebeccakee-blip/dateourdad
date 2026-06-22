@@ -208,7 +208,16 @@
     background: var(--paper);
     padding: 18px 20px;
   }
-  .spec-label {
+  .spec-full {
+    grid-column: 1 / -1;
+    background: #EFE9DC;
+  }
+
+  .spec-looking {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.6;
+  }
     font-family: 'JetBrains Mono', monospace;
     font-size: 10px;
     letter-spacing: 0.08em;
@@ -326,7 +335,7 @@
   }
   .form-frame iframe {
     width: 100%;
-    min-height: 1000px;
+    min-height: 1100px;
     border: none;
     display: block;
   }
@@ -404,49 +413,6 @@
     <p>His house is immaculate. His opinions are well-formed. His sense of whimsy is fully intact, and it runs right alongside a genuinely strong intellect – which, in our experience, is a rarer combination than people think.</p>
   </section>
 
-  <!-- Spec sheet -->
-  <section>
-    <div class="callout">Specifications</div>
-    <div class="specs">
-      <div class="spec">
-        <div class="spec-label">Background</div>
-        <div class="spec-value">Architect. Founded and ran his own successful firm in San Francisco.</div>
-      </div>
-      <div class="spec">
-        <div class="spec-label">Style</div>
-        <div class="spec-value">Dresses sharp, always. House is artfully decorated and kept immaculately neat.</div>
-      </div>
-      <div class="spec">
-        <div class="spec-label">Activity level</div>
-        <div class="spec-value">Hours of urban walking, bowling and bocce leagues. Hasn't slowed down so much as diversified.</div>
-      </div>
-      <div class="spec">
-        <div class="spec-label">Culture</div>
-        <div class="spec-value">Sings in a chorus. Loves museums, cities, and long walks through both.</div>
-      </div>
-      <div class="spec">
-        <div class="spec-label">Kitchen skills</div>
-        <div class="spec-value">Makes genuinely excellent pancakes. Washes all dishes, and dries 'em. Can't cook a feast but will take you out for one.</div>
-      </div>
-      <div class="spec">
-        <div class="spec-label">Manners</div>
-        <div class="spec-value">Old-school chivalry, the real kind – not a bit, just how he was raised.</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Field notes -->
-  <section>
-    <div class="callout">Field Notes</div>
-    <p style="color: var(--ink-soft); margin-bottom: 18px; font-size: 15px;">Things you'd learn within the first week of knowing him:</p>
-    <ul class="fieldnotes">
-      <li><span class="tag">01</span><span class="note">He will read you a meme out loud, in full, regardless of whether you've already seen it. This is not optional and we've made our peace with it.</span></li>
-      <li><span class="tag">02</span><span class="note">He'll pick you up, open the door, pick out a great restaurant – not performing manners, just has them.</span></li>
-      <li><span class="tag">03</span><span class="note">Ask him about the latest sci-fi book he's read and watch him light up. Ask him about his grandchildren and watch him light up even more.</span></li>
-      <li><span class="tag">04</span><span class="note">Laughs easily and often. Looks for the whimsical version of any situation before settling for the ordinary one. Has been seen at parties in costumes including a silver tinsel wig.</span></li>
-    </ul>
-  </section>
-
   <!-- Photo collage -->
   <section class="photos-section">
     <div class="callout">Exhibit A</div>
@@ -476,6 +442,60 @@
     </div>
   </section>
 
+  <!-- Spec sheet -->
+  <section>
+    <div class="callout">Specifications</div>
+    <div class="specs">
+      <div class="spec">
+        <div class="spec-label">Background</div>
+        <div class="spec-value">Architect. Founded and ran his own successful firm in San Francisco.</div>
+      </div>
+      <div class="spec">
+        <div class="spec-label">Style</div>
+        <div class="spec-value">Dresses sharp, always. House is artfully decorated and kept immaculately neat.</div>
+      </div>
+      <div class="spec">
+        <div class="spec-label">Age</div>
+        <div class="spec-value">76.</div>
+      </div>
+      <div class="spec">
+        <div class="spec-label">Location</div>
+        <div class="spec-value">Splits time between Petaluma and SF. Flexible.</div>
+      </div>
+      <div class="spec">
+        <div class="spec-label">Activity level</div>
+        <div class="spec-value">Hours of urban walking, bowling and bocce leagues. Hasn't slowed down so much as diversified.</div>
+      </div>
+      <div class="spec">
+        <div class="spec-label">Culture</div>
+        <div class="spec-value">Sings in a chorus. Loves museums, cities, and long walks through both.</div>
+      </div>
+      <div class="spec">
+        <div class="spec-label">Kitchen skills</div>
+        <div class="spec-value">Makes genuinely excellent pancakes. Washes all dishes, and dries 'em. Can't cook a feast but will take you out for one.</div>
+      </div>
+      <div class="spec">
+        <div class="spec-label">Manners</div>
+        <div class="spec-value">Old-school chivalry, the real kind – not a bit, just how he was raised.</div>
+      </div>
+      <div class="spec spec-full">
+        <div class="spec-label">Looking for</div>
+        <div class="spec-value spec-looking">Looking for someone who'd rather put the phone down than pick it up — who gets out, shows up, and has something to say. Conversation is kind of his thing (he actually listens, which is impressive for a dude). He's had successful long-term relationships and knows what real partnership looks like — and wants it again. 5'9", for what it's worth.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Field notes -->
+  <section>
+    <div class="callout">Field Notes</div>
+    <p style="color: var(--ink-soft); margin-bottom: 18px; font-size: 15px;">Things you'd learn within the first week of knowing him:</p>
+    <ul class="fieldnotes">
+      <li><span class="tag">01</span><span class="note">He will read you a meme out loud, in full, regardless of whether you've already seen it. This is not optional and we've made our peace with it.</span></li>
+      <li><span class="tag">02</span><span class="note">He'll pick you up, open the door, pick out a great restaurant – not performing manners, just has them.</span></li>
+      <li><span class="tag">03</span><span class="note">Ask him about the latest sci-fi book he's read and watch him light up. Ask him about his grandchildren and watch him light up even more.</span></li>
+      <li><span class="tag">04</span><span class="note">Laughs easily and often. Looks for the whimsical version of any situation before settling for the ordinary one. Has been seen at parties in costumes including a silver tinsel wig.</span></li>
+    </ul>
+  </section>
 
     <div class="sheet" style="padding: 0;">
       <div class="callout">Submit an Inquiry</div>
