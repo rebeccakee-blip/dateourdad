@@ -328,30 +328,22 @@
   .apply h2 { margin-bottom: 10px; }
   .apply .lede { color: var(--ink-soft); margin-bottom: 28px; }
 
-  .form-frame {
-    border: 1.5px solid var(--blue);
-    background: #fff;
-    position: relative;
-    min-height: 600px;
-  }
-  .form-frame iframe {
-    width: 100%;
-    min-height: 1100px;
-    border: none;
-    display: block;
-  }
-
-  .form-corner-label {
-    position: absolute;
-    top: -1px;
-    left: -1px;
+  .form-button {
+    display: inline-block;
     background: var(--blue);
     color: var(--paper);
     font-family: 'JetBrains Mono', monospace;
-    font-size: 10px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    padding: 4px 10px;
+    font-size: 14px;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+    padding: 18px 36px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .form-button:hover {
+    background: var(--blue-soft);
   }
 
   /* ---------- Footer ---------- */
@@ -479,6 +471,14 @@
         <div class="spec-label">Manners</div>
         <div class="spec-value">Old-school chivalry, the real kind – not a bit, just how he was raised.</div>
       </div>
+      <div class="spec">
+        <div class="spec-label">Religion</div>
+        <div class="spec-value">Jewish, but you don't have to be.</div>
+      </div>
+      <div class="spec">
+        <div class="spec-label">Pets</div>
+        <div class="spec-value">None. Allergic to cats — dog people, proceed with optimism.</div>
+      </div>
       <div class="spec spec-full">
         <div class="spec-label">Looking for</div>
         <div class="spec-value spec-looking">Seeking someone who'd rather put the phone down than pick it up — who gets out, shows up, and has something to say. Conversation is kind of his thing (he actually listens, which is impressive for a dude). He's had successful long-term relationships and knows what real partnership looks like — and wants it again. 5'9", for what it's worth.</div>
@@ -495,6 +495,7 @@
       <li><span class="tag">02</span><span class="note">He'll pick you up, open the door, pick out a great restaurant – not performing manners, just has them.</span></li>
       <li><span class="tag">03</span><span class="note">Ask him about the latest sci-fi book he's read and watch him light up. Ask him about his grandchildren and watch him light up even more.</span></li>
       <li><span class="tag">04</span><span class="note">Laughs easily and often. Looks for the whimsical version of any situation before settling for the ordinary one. Has been seen at parties in costumes including a silver tinsel wig.</span></li>
+      <li><span class="tag">05</span><span class="note">No dietary restrictions and will eat anything, which makes him extremely easy to take to dinner.</span></li>
     </ul>
   </section>
 
@@ -502,11 +503,7 @@
       <div class="callout">Submit an Inquiry</div>
       <h2>Think you two would get along?</h2>
       <p class="lede">Fill this out and we'll be in touch. Yes, his daughters are reading every response. No, that's not weird, it's due diligence.</p>
-
-      <div class="form-frame">
-        <div class="form-corner-label">Application</div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSch91OMDz8twAPhB-uuj0QtS31ZvW_UhvrFqgLMwDzV9qJJ5A/viewform?embedded=true" title="Date Our Dad Application Form">Loading form…</iframe>
-      </div>
+      <a class="form-button" href="https://docs.google.com/forms/d/e/1FAIpQLSch91OMDz8twAPhB-uuj0QtS31ZvW_UhvrFqgLMwDzV9qJJ5A/viewform" target="_blank" rel="noopener">Fill Out the Application →</a>
     </div>
   </div>
 
